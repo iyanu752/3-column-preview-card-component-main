@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+   box-sizing: border-box; 
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+
+.columnContainer {
+    display: flex;
+    justify-content: center;    
+    margin-top: 200px;
+
+  
+}
+
+.box {
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+.orange {
+    background-color:  hsl(31, 77%, 52%);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.cyan {
+   background-color: hsl(184, 100%, 22%);
+   border-radius: 0px;
+}
+
+.dark-cyan {
+    background-color:   hsl(179, 100%, 13%);
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+
+}
+
+.header {
+    font-family: 'Big Shoulders Display',sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+.button {
+
+    border-radius: 30px;
+    border-style: none;
+    padding: 15px;
+    margin-top: 90px;
+    width: 140px;
+    background-color:  hsl(0, 0%, 95%);
+  
+   
+    
+}
+
+.text-orange {
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.text-cyan {
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.text-darkcyan {
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+   
+}
+
+
+
+
+.attribution {
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+
+/*############### MOBILE ##############*/
+
+@media screen and (max-width:680px) {
+
+
+ .columnContainer {
+    flex-wrap: wrap;
+    margin-top: 50px;
+ }
+
+ 
+.orange {
+    background-color:  hsl(31, 77%, 52%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+
+.dark-cyan {
+    background-color:   hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 100px;
+
+}
+}
